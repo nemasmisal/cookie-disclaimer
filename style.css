@@ -1,0 +1,34 @@
+.cookie-disclaimer {
+  display: grid;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  border: 5px solid #f7c413;
+  z-index: 1000001;
+  padding: 10px;
+  background:rgba(255,255,255, 0.9);
+  width: 211px;
+}
+.cookie-disclaimer p {
+  line-height: normal;
+  font-size: 0.7rem;
+  margin: 5px auto;
+}
+#cookie-disclaimer-accept-btn {
+  background: #f7c413;
+  margin: 10px auto;
+  display: block;
+  padding: 10px;
+  border: none;
+}
+#cookie-disclaimer-close-btn {
+  border: none;
+  background: none;
+  text-align: right;
+  display: block;
+  font-size: 18px;
+  padding: 2px;
+}
+.cookie-disclaimer-disabled {
+  display: none;
+}
